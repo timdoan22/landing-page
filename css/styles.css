@@ -1,0 +1,23 @@
+body {
+  font-family: 'ubuntu', sans-serif;
+}
+
+#title {
+  background-color: #D3E4CD;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.2em !important;
+    font-weight: bold;
+  }
+  
+.nav-link {
+  font-size: 1.2rem;
+  opacity: 70%;
+}
