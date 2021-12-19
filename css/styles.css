@@ -2,8 +2,18 @@ body {
   font-family: 'ubuntu', sans-serif;
 }
 
+h1  {  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;  
+  line-height: 1.5;  
+}
+
 #title {
   background-color: #D3E4CD;
+}
+
+.container-fluid {
+  padding: 3% 15%;
 }
 
 /* Navigation Bar */
@@ -20,4 +30,26 @@ body {
 .nav-link {
   font-size: 1.2rem;
   opacity: 70%;
+}
+
+.ms-n1 {
+  margin-left: -21% !important;
+}
+
+.ms-n2 {
+  margin-left: 68% !important;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  margin-left: 20%;
+  width: 70%;
+  transform: rotate(20deg);
 }
