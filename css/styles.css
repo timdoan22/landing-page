@@ -53,3 +53,12 @@ h1  {
   width: 70%;
   transform: rotate(20deg);
 }
+
+/* Features Section */
+
+.feature-column {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
