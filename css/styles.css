@@ -107,17 +107,10 @@ p {
 
 /* Testimonial Section */
 
-#alien_profile {
-  width: 13%;
-  border-radius: 100%;
-  margin: 20px;
+.carousel-item {
+  padding: 7% 15%;
 }
 
-#testimonials {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #D3E4CD;
-}
 
 #press {
   background-color: #D3E4CD;
@@ -128,6 +121,17 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #D3E4CD;
+}
+
+.testimonial-image {
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 .testimonial-text {

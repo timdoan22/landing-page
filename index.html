@@ -94,9 +94,29 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <h2>I no longer have to scour the universe for love. I've found the perfect Homo Sapien on Oddity.</h2>
-    <img id="alien_profile" src="images/cool_alien.png" alt="alien-profile" width=150 height=150>
-    <em class="testimonial-text">X Æ Z#^-341231, Andromeda Galaxy</em>
+
+    <div id="testimonial-carousel" class="carousel slide" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to scour the universe for love. I've found the perfect Homo Sapien on Oddity.</h2>
+          <img class="testimonial-image" src="images/cool_alien.png" alt="alien-profile" width=150 height=150>
+          <em class="testimonial-text">X Æ Z#^-341231, Andromeda Galaxy</em>
+        </div>
+        <div class="carousel-item">
+          <h2>At first he was like "take me to your leader", I took him to my heart instead. I found true love at last, I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile" width=150 height=150>
+          <em class="testimonial-text">Diana, Ottawa</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
   <!-- Press -->
