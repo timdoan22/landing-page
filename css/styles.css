@@ -25,8 +25,8 @@ p {
   color: #8f8f8f;
   font-family: 'ubuntu', sans-serif;
   font-weight: 900;
-  font-size: 0.9rem; 
-  line-height: 1.5;
+  font-size: 1.05rem; 
+  /* line-height: 1.5; */
 }
 
 #title {
@@ -111,7 +111,6 @@ p {
   padding: 7% 15%;
 }
 
-
 #press {
   background-color: #D3E4CD;
   text-align: center;
@@ -139,4 +138,34 @@ p {
   font-family: 'ubuntu', sans-serif;
   font-weight: bolder;
   font-size: 1.2rem; 
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  line-height: 1.1;
+}
+
+.call-to-action-text {
+  font-family: 'ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem; 
+}
+
+.btn-premium {
+  background-color: #0B4619;
+}
+
+.btn-pricing:hover {
+  background-color: #D3E4CD;
+  color: #000;
 }
