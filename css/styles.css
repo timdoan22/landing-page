@@ -26,7 +26,6 @@ p {
   font-family: 'ubuntu', sans-serif;
   font-weight: 900;
   font-size: 1.05rem; 
-  /* line-height: 1.5; */
 }
 
 #title {
@@ -35,6 +34,10 @@ p {
 
 .container-fluid {
   padding: 3% 15%;
+}
+
+.download-section {
+  margin-bottom: 250px;
 }
 
 /* Navigation Bar */
@@ -68,22 +71,22 @@ p {
   color: #D3E4CD;
 }
 
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
 /* Title Image */
 
 .title-image {
-  margin-left: 20%;
-  width: 70%;
+  margin-left: 5%;
+  height: 600px;
   transform: rotate(20deg);
+  position: absolute;
 }
 
 /* Features Section */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* padding: 5% 5%;  */
 }
 
 .feature-column {
@@ -111,10 +114,11 @@ p {
   padding: 7% 15%;
 }
 
+
 #press {
   background-color: #D3E4CD;
   text-align: center;
-  padding-bottom: 3%;
+  padding-bottom: 6%;
 }
 
 .press-logo {
@@ -125,6 +129,9 @@ p {
 #testimonials {
   text-align: center;
   background-color: #D3E4CD;
+  position: relative;
+  z-index: 0;
+  padding-top: 50px;
 }
 
 .testimonial-image {
@@ -143,7 +150,7 @@ p {
 /* Pricing Section */
 
 #pricing {
-  padding: 100px;
+  padding: 125px;
   text-align: center;
 }
 
