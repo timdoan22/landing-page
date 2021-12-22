@@ -13,6 +13,10 @@ p {
   font-size: 1.05rem; 
 }
 
+.container-fluid {
+  padding: 3% 15%;
+}
+
 /* Headings */
 
 .large-heading {
@@ -27,16 +31,17 @@ p {
 }
 
 #title {
-  background-color: #D3E4CD;
   text-align: left;
 }
 
-.container-fluid {
-  padding: 3% 15%;
+/* Sections */
+
+.coloured-section {
+  background-color: #D3E4CD;
 }
 
-.download-section {
-  margin-bottom: 250px;
+.white-section {
+  background-color: #fff;
 }
 
 /* Spacing  */
@@ -76,7 +81,6 @@ p {
 /* Download Buttons */
 
 #apple-btn:hover {
-  background-color: #FBFBFB;
   color: #D3E4CD;
 }
 
@@ -92,7 +96,6 @@ p {
 /* Features Section */
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -119,7 +122,6 @@ p {
 /* Testimonial Section */
 
 #press {
-  background-color: #D3E4CD;
   padding-bottom: 6%;
 }
 
@@ -129,7 +131,6 @@ p {
 }
 
 #testimonials {
-  background-color: #D3E4CD;
   padding-top: 4%;
 }
 
@@ -175,7 +176,6 @@ p {
 }
 
 .call-to-action-text {
-  font-family: 'ubuntu', sans-serif;
   font-weight: bold;
   font-size: 1.25rem; 
 }
@@ -191,10 +191,6 @@ p {
 
 /* Call to Action */
 
-#cta {
-  background-color: #D3E4CD;
-}
-
 .cta-btn {
   padding: 1% 5%;
   font-size: 2rem;
@@ -208,10 +204,6 @@ p {
 }
 
 /* Footer */
-
-#footer {
-  background-color: #fff;
-}
 
 .socials {
   margin: 3% 0;
