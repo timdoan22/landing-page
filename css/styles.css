@@ -94,6 +94,35 @@ p {
   position: absolute;
 }
 
+@media screen and (max-width: 980px) {
+  .title-image {
+    height: 400px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .title-image {
+    height: 340px;
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .title-image {
+    height: 300px;
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .title-image {
+    height: 300px;
+    width: 360px;
+  }
+}
+
+
 /* Features Section */
 
 #features {
@@ -122,14 +151,14 @@ p {
 
 /* Testimonial Section */
 
-#press {
+/* #press {
   padding-bottom: 6%;
 }
 
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
-}
+} */
 
 #testimonials {
   padding-top: 4%;
