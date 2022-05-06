@@ -37,7 +37,7 @@ p {
 /* Sections */
 
 .coloured-section {
-  background-color: #D3E4CD;
+  background-color: #ebefe7;
 }
 
 .white-section {
@@ -87,9 +87,10 @@ p {
 /* Title Image */
 
 .title-image {
-  margin-left: 5%;
-  height: 600px;
-  transform: rotate(20deg);
+  margin-top: -8%;
+  height: 680px;
+  width: 600px;
+  /* transform: rotate(20deg); */
   position: absolute;
 }
 
@@ -219,6 +220,32 @@ p {
 }
 
 @media (max-width: 1028px) {
+  
+  .large-heading {
+    font-size: 2.5rem;
+  }
+  
+  .testimonial-text {
+    font-size: 1.5em;
+  }
+  
+  .section-heading, .price-type {
+    font-size: 2em;
+  }
+  
+  .pricing-title {
+    font-size: 1.5em;
+  }
+  
+  .testimonial-image {
+    width: 40%;
+  }
+  
+  #android-img {
+    margin: 10% 0 0 5%;
+    width: 25%;
+  }
+  
   #title {
     text-align: center;
   }
@@ -226,5 +253,9 @@ p {
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+  
+  #apple-btn {
+    margin-bottom: 2%;
   }
 }
