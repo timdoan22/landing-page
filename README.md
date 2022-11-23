@@ -1,11 +1,8 @@
 # Project Title
 
-Oddity Dating Landing Page
+Mock Design for a Landing Page Site
 
 ## Description
 
-A simple landing page project to showcase my comedic side.  Built with HTML and CSS.
+A simple landing page project.  Built with HTML and CSS.
 
-### Executing program
-
-Run the index.html file in any browser
